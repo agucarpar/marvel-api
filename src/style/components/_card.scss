@@ -1,0 +1,31 @@
+$color:blue;
+
+.wrapper-card{
+    width: auto;
+    border:1px solid black;
+    border-radius:5px;
+    background-color: $color;
+    font-size:10px;
+        *{
+            padding:0.5rem;
+        }
+        h1{
+            font-size: 1.5rem;
+        }
+        p{
+            padding: 0 1rem;
+        }
+
+        li{
+            list-style: none;
+        
+            a{
+            text-decoration: none;
+                }
+        }
+}
+
+.wrapper-card:hover{
+    transform:scale(1.05) 
+
+}

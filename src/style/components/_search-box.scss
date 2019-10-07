@@ -1,0 +1,37 @@
+
+
+.wrapper-main{
+    padding:10px;
+    background-color: firebrick;
+    color: white;
+}
+
+.cards-section-wrapper{
+    padding-top:2rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+   
+}
+
+
+ .lupa{
+        width:10px;
+        height: 10px;
+    }
+
+.no-search-wrapper{
+    height: 95vh;
+    padding-top: 1rem;
+    background-color: white;
+    background:$color;
+    
+    *{
+        padding-top:1rem;
+    }
+    
+    img{
+        width: 80vw;
+        height: 60vh;;
+    }
+}
